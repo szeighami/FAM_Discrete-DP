@@ -8,8 +8,10 @@ We have used "Boost library" (www.boost.org) in our program for random sampling 
 Usage
 ===========
 a. Compilation
+
 	g++ -o run -I . DP.cpp
 b. Execution
+
 	./run PointsFile k n N
 Where PointsFile contains the all the points in the dataset, k is the size of the solution returned, n is the size of the dataset, and N is the sample size. The algorithm assumes a uniform distribution of linear utility funcitons in a two dimensional database and samples N utility functions from that distribution.
 In the output file, you can see the results of the algorithm. 
@@ -19,6 +21,7 @@ The dataset should contain n points in 2 dimensions. Each point must be written 
 
 Example (The hotel example from the paper):
 The dataset contains 50 points in 2 dimensions. Use
+
 	./run examplePoints.txt 2 50 100
 
 to select 2 points from the 50 points in the 2-dimensional dataset using a sample size of 100 utility functions. The program outputs the results to the file result.txt. 
