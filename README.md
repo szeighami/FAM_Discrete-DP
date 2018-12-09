@@ -5,7 +5,7 @@ Prerequisite
 ===========
 We have used "Boost library" (www.boost.org) in our program for random sampling of utility functions from a uniform distribution. Thus, the user should download this library and place it under the folder "ARR" (with the folder name "boost"). If the the library is in any other directory, replace the directory in -I option below to the desired directory. (i.e. if the boost file is in /home/myFiles/boost, then your compilation command should include -I /home/myFiles)
 
-Usage Step
+Usage
 ===========
 a. Compilation
 	g++ -o run -I . DP.cpp
