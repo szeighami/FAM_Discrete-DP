@@ -14,11 +14,9 @@ b. Execution
 Where PointsFile contains the all the points in the dataset, k is the size of the solution returned, n is the size of the dataset, and N is the sample size. The algorithm assumes a uniform distribution of linear utility funcitons in a two dimensional database and samples N utility functions from that distribution.
 In the output file, you can see the results of the algorithm. 
 
-#===========
 About dataset:
 The dataset should contain n points in 2 dimensions. Each point must be written in a separate line with its dimensions being separated by tabs.
 
-#===========
 Example (The hotel example from the paper):
 The dataset contains 50 points in 2 dimensions. Use
 	./run examplePoints.txt 2 50 100
