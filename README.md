@@ -19,7 +19,7 @@ In the output file, you can see the results of the algorithm.
 About dataset:
 The dataset should contain n points in 2 dimensions. Each point must be written in a separate line with its dimensions being separated by tabs.
 
-Example (The hotel example from the paper):
+Example:
 The dataset contains 50 points in 2 dimensions. Use
 
 	./run examplePoints.txt 2 50 100
